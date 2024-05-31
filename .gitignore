@@ -7,10 +7,10 @@
 # you can delete this whole section/until Configuration.
 /wp-admin/
 /wp-content/index.php
-/wp-content/languages
+#/wp-content/languages
 /wp-content/plugins/index.php
 /wp-content/themes/index.php
-/wp-includes/
+#/wp-includes/
 /index.php
 /license.txt
 /readme.html
@@ -46,3 +46,17 @@ wp-config.php
 # Note: If you wish to whitelist themes,
 # uncomment the next line
 #/wp-content/themes
+
+#sleele.com set up
+*.php
+*.icloud
+*.xml
+wp-content/cache/
+wp-content/upgrade/
+#wp-content/ai1wm-backups
+#wp-content/w3tc-config
+wp-content/languages
+wp-includes/certificates
+
+#caoza.cn set up
+wp-content/zib-temp
